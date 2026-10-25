@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.env
+*.pyc
+*.pyo
+*.log
+artifacts/
+.DS_Store
+
+# Traces: keep the three live Groq runs as evidence; everything else is regenerated
+traces/*.jsonl
+!traces/24I-8070_public-a.jsonl
+!traces/24I-8070_public-b.jsonl
+!traces/24I-8070_public-c.jsonl
