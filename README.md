@@ -1,4 +1,4 @@
-# IncidentZero 🚨
+# IncidentZero 
 
 **An autonomous SRE agent that investigates production incidents, fixes them under human
 approval, and proves recovery before it closes the ticket.**
